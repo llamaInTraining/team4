@@ -13,4 +13,17 @@ while True:
         alert = input(" please enter the alert--- ")
         alert_queue.append(alert)
         print("Alert logged successfully!")
-        break
+
+    elif choice == "2":
+        print(alert_queue)
+        for log in alert_queue:
+            print(log)
+
+    elif choice == "3":
+        lenght  = len(alert_queue)
+        #print(lenght) -- this prints the total number of alarms on the list
+        if lenght > 0:
+            alarm_resolved = alert_queue.pop(0)
+            print("Oldest alert--- ",alarm_resolved," ---has been resolved")
+        else:
+            print("There are no alarms on the alert queue")
