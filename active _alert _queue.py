@@ -31,3 +31,6 @@ while True:
     elif choice == "4":
         print("Exit the system")
         break
+
+    else:
+        print("please choose between choices 1-4")
