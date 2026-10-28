@@ -27,3 +27,7 @@ while True:
             print("Oldest alert--- ",alarm_resolved," ---has been resolved")
         else:
             print("There are no alarms on the alert queue")
+
+    elif choice == "4":
+        print("Exit the system")
+        break
