@@ -1,3 +1,4 @@
+#Adam Mohamed, Rached Aissa, Joseph Sanchez, Omer Faruk
 #active alert queue 
 #goalis to build an interactive, dynamic "Active Alert Queue" that logs, views, and resolve incoming threats.
 #Initialize an empty list named alert_queue and use a while True loop to continuously serve a main menu
